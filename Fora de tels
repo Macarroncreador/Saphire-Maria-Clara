@@ -1,0 +1,186 @@
+<main>
+        <section class="container">
+        <div>
+            <h1>A casa que você procura em um único lugar.</h1>
+                <p>Há mais de 15 anos transformando sonhos em realidade! 
+                Encontre o lar dos seus sonhos com quem entende suas necessidades.</p>
+                
+                <div>
+                    <img src="cs1.png" alt="Casa branca com paisagem bonita" class="imagems">
+                    <a href="#" class="btn"> Pesquisar</a>  
+                </div>
+        </div>          
+        </section>
+
+        <section class="container a">
+           
+                <figure>
+                    <img src="cs2.png" alt="Casa laranja">
+                    <a href="#" class="btn a">LER MAIS</a>
+                        <figcaption>
+                            <h1>Reivindique a sua melhor vida conosco!</h1>
+                        </figcaption>
+        
+                </figure> 
+            <p>Há mais de 15 anos transformando sonhos em realidade! 
+            Encontre o lar dos seus sonhos com quem entende suas necessidades.</p>  
+
+        </section>
+
+        <section class="blog">
+            <h1>
+                Artigos do Blog
+            </h1>
+        <article>
+            <figure>
+                <img src="tijolo.png" alt="Passando massa no tijolo">
+                <figcaption>Como definir um orçamento para
+                    a reforma de casa.
+                </figcaption>
+            </figure>
+                <p>Definir um orçamento para a reforma de uma casa é um passo essencial para garantir que o projeto seja bem-sucedido e dentro das suas possibilidades financeiras. Antes de iniciar qualquer obra, é fundamental planejar cada detalhe, desde os custos...</p>
+        </article>
+        <article>
+            <figure>
+                <img src="cs3.png" alt="Casa enorme branca bonita">
+                <figcaption>7 maneiras de fazer seu home office funcionar.
+                </figcaption>
+            </figure>
+            <p>Criar um home office eficiente é essencial para garantir produtividade e conforto no ambiente de trabalho em casa. Com o aumento do trabalho remoto, muitas pessoas buscam maneiras de transformar um canto da casa em um espaço funcional...
+            </p>
+        </article>   
+        </section>
+            <div>
+                <h2>Comece agora com Saphire!</h2>
+                <p>
+                Assine e encontre uma cotação de preço atraente exclusiva pra você , pois a casa dos seus sonhos está aqui com a gente.
+                </p>
+                <a href="#">INCREVA-SE</a>
+            </div>
+        <footer class="rodape">
+           <div class="rodape-conteiner">
+                <img src="Logo.png" alt="logo">
+                <p>Nossa visão é fazer de todas as pessoas o melhor lugar para viver.</p>    
+           </div> 
+           <div class="rodape-links">
+            <ul>
+                <li><h4>Sobre Nós</h4></li>
+                <li>Quem Somos</li>
+                <li>Características</li>
+                <li>Noticias & Blog</li>  
+            </ul>
+           <ul>
+                <li><h4>Empresa</h4></li>
+                <li>Como Trabalhamos ?</li>
+                <li>Capital</li>
+                <li>Segurança</li>
+            </ul> 
+            <ul>
+                <li><h4>Apoio</h4></li>
+                <li>FAQ’s</li>
+                <li>Ajuda</li>
+                <li>Contate-nos</li>
+            </ul> 
+            <ul>
+                <li><h4>Jurídico</h4></li>
+                <li>Politica </li>
+                <li>Documentos</li>
+                <li>Ajuda</li>
+            </ul> 
+        
+           </div>
+           <p class="final">@Saphire 2025. Todos os direitos reservados</p>
+        </footer>
+    </main>
+
+
+
+
+
+footer {
+  background-color: #0e333d;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0px;
+}
+footer p {
+  font-size: 16px;
+}   
+footer a {
+  color: #54bfd9;
+}
+footer a:hover {
+  color: #fff;
+}
+footer a:visited {
+  color: #fff;
+}
+footer a:active {
+  color: #fff;
+}
+footer a:focus {
+  color: #fff;
+}
+footer a:link {
+  color: #54bfd9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  
+  .img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .artigo {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  
+  .artigo img {
+    margin: 0 auto 20px;
+  }
+}
+@media (max-width: 480px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .navbar ul {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .navbar a {
+    margin: 10px 0;
+  }
+}
