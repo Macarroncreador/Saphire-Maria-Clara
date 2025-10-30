@@ -1,0 +1,279 @@
+
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+}
+h4 {
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  padding: 60px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  max-height: 48px;
+  height: auto;
+}
+.navbar a {
+  font-size: 20px;
+  color: #0e333d;
+  margin-left: 35px;
+  transition: 0.3s;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar a:active {
+  color: #54bfd9;
+}
+.text h1 {
+  font-size: 48px;
+  color: #0e333d;
+  padding: 10px 0px 0px;
+  max-width: 600px;
+}
+.text p {
+  font-size: 20px;
+  color: #000000;
+  margin-top: 15px;
+  max-width: 590px;
+}
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 15px 50px;
+  background-color: #0e333d;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+}
+.img {
+  width: 607px;
+  height: 739px;
+  top: 159px;
+  left: 707px;
+  border-radius: 40px;
+  overflow: hidden;
+}
+.btn:hover {
+  background-color: #54bfd9;
+}
+
+.texto h1 {
+  font-size: 48px;
+  color: #0e333d;
+  margin: 150px 0px 0px 25px;
+}
+.texto p {
+  font-size: 20px;
+  color: #000000;
+  margin: 25px;
+  max-width: 590px;
+}
+.lermais {
+  display: inline-block;
+  margin: 20px;
+  padding: 15px 50px;
+  background-color: #0e333d;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+}
+.lermais:hover {
+  background-color: #54bfd9;
+}
+.casa {
+  margin-top: 100px;
+  width: 653px;
+  height: 555px;
+  top: 1018px;
+  left: 120px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.blog {
+  
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.blog h1 {
+  font-size: 35px;
+  color: #0e333d;
+  margin: 45px 0px 20px 0px;
+}
+.artigo {
+  display: grid;
+  grid-template-columns: 400px auto;
+  margin-bottom: 50px;
+  gap: 20px;
+  align-items: center;
+ 
+}
+.artigo img {
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+  margin-right: 30px;
+}
+.artigo h2 {
+ font-size: 28px;
+  color: #0e333d;
+  max-width: 500px;
+}
+.artigo p {
+  font-size: 18px;
+  color: #000000;
+  margin-top: 15px;
+}
+
+.ctn {
+  background: linear-gradient(160deg, #0e333d, #18596B);
+  color: #fff;
+  text-align: center;
+  padding: 90px 25px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+.ctn h3 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.ctn p {
+  font-size: 20px;
+  margin-bottom: 25px;
+  padding: 0px 200px;    
+}
+.ctn-btn {
+  font-size: 18px;
+  display: inline-block;
+  padding: 12px 60px;
+  border-radius: 30px;
+  background-color: #fff;
+  color: #0e333d;  
+} 
+.ctn-btn:hover {
+  background-color: #54bfd9;
+  color: #fff;
+} 
+.inscreva-se {
+  max-width: 1300px;
+  margin: 90px auto;
+}                         
+.rodape {
+  display: flex;
+  background: linear-gradient(160deg, #0e333d, #18596B);
+  color: #fff;
+  padding: 60px 2px 20px;
+  justify-content: space-between;  
+  align-items: flex-start;
+  flex-wrap: wrap;                  
+  gap: 40px;                       
+  max-width: 1700px;             
+  margin: 0 auto;
+
+}
+.rodape-conteiner {
+ max-width: 240px;
+ margin: 30px 90px 20px 90px;  
+}
+.rodape-conteiner p {
+  font-size: 15px;
+  line-height: 25px;
+  margin-top: 10px;
+}
+
+.rodape-links {
+  display: flex;
+  gap: 80px; 
+}
+.rodape-links h4 {
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.rodape-links ul {
+  margin: 40px;
+  padding: 0;
+}
+.rodape-links li{
+  font-size: 14px;
+  margin-bottom: 20px;
+  
+}
+.final {
+   width: 100%;
+  text-align: center;
+  margin-top: 24px;
+  border-top: 1px solid rgba(255,255,255,.35);
+  padding-top: 16px;
+  font-size: 13px;
+  opacity: .9;
+}
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    text-align:left ;
+    margin: 20px 0px 20px 30px; 
+  }
+  .img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  .artigo {
+    grid-template-columns: 90fr;
+    margin: 20px 0px 20px 30px; 
+  }
+  .artigo img {
+    margin: 0 auto;
+  }
+  .blog h1 {
+    margin: 20px 0px 20px 30px;
+  }
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 20px;
+    
+  }
+.navbar a {
+    margin-left: 2px;
+    font-size: 18px;
+}
+  .navbar ul {
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+  }
+  .rodape {
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+  }
+  .rodape-conteiner {
+    margin: 20px 0px 20px 30px;  
+  }
+}
