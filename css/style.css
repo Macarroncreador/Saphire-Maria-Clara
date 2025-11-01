@@ -58,6 +58,7 @@ h4 {
   margin-top: 15px;
   max-width: 590px;
 }
+
 .btn {
   display: inline-block;
   margin-top: 25px;
@@ -67,14 +68,29 @@ h4 {
   font-size: 20px;
   border-radius: 30px;
   transition: background-color 0.3s;
+  position: relative;
+  
 }
+
+.btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 350px; 
+  height: 100%;
+  background: linear-gradient(to right, #ffff, #6F7E83);
+  border-radius: 30px;
+
+}
+  
+
 .img {
   width: 607px;
   height: 739px;
   top: 159px;
   left: 707px;
   border-radius: 40px;
-  overflow: hidden;
 }
 .btn:hover {
   background-color: #54bfd9;
@@ -190,17 +206,17 @@ h4 {
   align-items: flex-start;
   flex-wrap: wrap;                  
   gap: 40px;                       
-  max-width: 1700px;             
-  margin: 0 auto;
+            
 
 }
-.rodape-conteiner {
- max-width: 240px;
- margin: 30px 90px 20px 90px;  
+.rodape-img {
+  max-width: 300px;
+  margin-left: 40px;
 }
-.rodape-conteiner p {
+
+.rodape-img p {
   font-size: 15px;
-  line-height: 25px;
+  max-height: 20px;
   margin-top: 10px;
 }
 
@@ -223,11 +239,11 @@ h4 {
   
 }
 .final {
-   width: 100%;
+  width: 100%;
   text-align: center;
   margin-top: 24px;
   border-top: 1px solid rgba(255,255,255,.35);
-  padding-top: 16px;
+  padding-top: 25-px;
   font-size: 13px;
   opacity: .9;
 }
@@ -275,4 +291,5 @@ h4 {
   .rodape-conteiner {
     margin: 20px 0px 20px 30px;  
   }
+
 }
